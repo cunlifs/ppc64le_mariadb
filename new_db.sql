@@ -1,4 +1,5 @@
 CREATE DATABASE stu1;
+USE stu1;
 CREATE table songs (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   title TEXT,
