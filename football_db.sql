@@ -13,8 +13,8 @@ country TEXT,
 neutral TEXT
 );
 
-#LOAD DATA INFILE '/results.csv' 
-#INTO TABLE results 
-#FIELDS TERMINATED BY ',' 
-#LINES TERMINATED BY '\n'
-#IGNORE 1 ROWS;
+LOAD DATA INFILE '/results.csv' 
+INTO TABLE results 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
