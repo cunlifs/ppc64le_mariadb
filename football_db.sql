@@ -2,7 +2,7 @@ CREATE DATABASE football;
 USE football;
 CREATE table results 
 (
-date DATE PRIMARY KEY,
+date TEXT PRIMARY KEY,
 home_team TEXT,
 away_team TEXT,
 home_score INTEGER,
