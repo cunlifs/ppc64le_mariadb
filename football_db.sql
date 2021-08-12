@@ -2,7 +2,7 @@ CREATE DATABASE football;
 USE football;
 CREATE table results 
 (
-when DATE,
+real_date DATE,
 home_team TEXT,
 away_team TEXT,
 home_score INTEGER,
@@ -13,6 +13,8 @@ country TEXT,
 neutral TEXT
 );
 
-LOAD DATA INFILE '/results.csv' 
-INTO TABLE results 
-IGNORE 1 ROWS;
+#LOAD DATA INFILE '/results.csv' 
+#INTO TABLE results 
+#FIELDS TERMINATED BY ',' 
+#LINES TERMINATED BY '\n'
+#IGNORE 1 ROWS;
