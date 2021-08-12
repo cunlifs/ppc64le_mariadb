@@ -26,4 +26,5 @@ INSERT INTO songs (title, artist, mood, duration, released)
     VALUES ("Sweet Caroline", "Neil Diamond", "happy", 201, 1969);
 INSERT INTO songs (title, artist, mood, duration, released)
     VALUES ("Call me maybe", "Carly Rae Jepsen", "happy", 193, 2011);
-#   SELECT * FROM songs;
+    
+SELECT * FROM songs;
