@@ -10,7 +10,7 @@ away_score INTEGER,
 tournament TEXT,
 city TEXT,
 country TEXT,
-neutral TEXT
+neutral BOOLEAN
 );
 
 LOAD DATA INFILE '/results.csv' 
