@@ -2,7 +2,7 @@ CREATE DATABASE football;
 USE football;
 CREATE table results 
 (
-when date PRIMARY KEY,
+when DATE,
 home_team TEXT,
 away_team TEXT,
 home_score INTEGER,
@@ -10,7 +10,7 @@ away_score INTEGER,
 tournament TEXT,
 city TEXT,
 country TEXT,
-neutral BOOLEAN
+neutral TEXT
 );
 
 LOAD DATA INFILE '/results.csv' 
